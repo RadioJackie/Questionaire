@@ -5,10 +5,11 @@ var mainEl = document.getElementById("main");
 var timerEl = document.getElementById("countdown");
 var bodyEl = document.createElement("div");
 var demoEl = document.getElementById("demo")
-
+var selectedAns 
 
        var rightCounter = 0
        var wrongCounter = 0
+
 
 function getAnswer(){
 
@@ -20,11 +21,19 @@ function getAnswer(){
         alert("Wrong!")
 
     }
-    
+    var wrongAns;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+} 
     
 }
 
 rightAns.addEventListener("click", getAnswer)
+    var wrongAns = ["A2", "A2", "A2"];{
+        wrongAns.addEventListener("click", getAnswer)
+
+    }
+
 
 
         
@@ -44,46 +53,3 @@ seconds = (seconds-1,1000);
 
 
 
-/*
-function prepareRead() {
-    var timeLeft = 90;
-  
-    var timeInterval = setInterval(function () {
-      timerEl.textContent = timeLeft + " seconds remaining";
-      timeLeft--;
-  
-      if (timeLeft === 0) {
-        timerEl.textContent = "";
-        speedRead();
-        clearInterval(timeInterval);
-      }
-  
-    }, 1000);
-  }
-*/
-
- 
-    
-
-/*
-write a code that will make the question change
-have a popup for when someone awnsers
-get the timer to work
-
-*/
-
-
-/*
-rightAns.addEventListener("click", getAnswer); {
-
-function rightAns(){
-
-}
-}
-*/
-//Timer
-
-
-
-
-   
