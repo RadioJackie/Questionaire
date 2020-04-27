@@ -28,6 +28,8 @@ rightAns.addEventListener("click", getAnswer)
         
   
 
+
+/*
 function prepareRead() {
     var timeLeft = 90;
   
@@ -43,7 +45,7 @@ function prepareRead() {
   
     }, 1000);
   }
-
+*/
 
  
     
