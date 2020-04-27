@@ -14,9 +14,10 @@ function getAnswer(){
 
     if(selectedAns == rightAns){
         document.querySelector("[name=A1]").innerHTML = "Right!"
+        alert("Right!")
     }
-    else (selectedAns == wrongAns){
-        document.querySelector("[name=A2]").innerHTML = "Wrong!"
+    else { wrong 
+        alert("Wrong!")
     }
     
 }
