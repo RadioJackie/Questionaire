@@ -4,7 +4,7 @@ var wrongAns = document.querySelector("[name=A2]");
 var mainEl = document.getElementById("main");
 var timerEl = document.getElementById("countdown");
 var bodyEl = document.createElement("div");
-
+var demoEl = document.getElementById("demo")
 
 
        var rightCounter = 0
@@ -26,7 +26,20 @@ rightAns.addEventListener("click", getAnswer)
 
 
         
-  
+script{
+
+    seconds = 90;
+    var timerEl = setInterval(function() {
+        
+    })
+
+    if(seconds<0){
+        clearInterval(timerEl);
+        document.getElementById("demo").innerHTML = "Time";
+    }
+seconds = (seconds-1,{1000});
+
+} 
 
 
 /*
