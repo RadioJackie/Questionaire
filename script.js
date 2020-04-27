@@ -16,9 +16,11 @@ function getAnswer(){
         document.querySelector("[name=A1]").innerHTML = "Right!"
         alert("Right!")
     }
-    else { wrong 
+    else {
         alert("Wrong!")
+
     }
+    
     
 }
 
@@ -26,7 +28,7 @@ rightAns.addEventListener("click", getAnswer)
 
 
         
-script{
+
 
     seconds = 90;
     var timerEl = setInterval(function() {
@@ -37,9 +39,9 @@ script{
         clearInterval(timerEl);
         document.getElementById("demo").innerHTML = "Time";
     }
-seconds = (seconds-1,{1000});
+seconds = (seconds-1,1000);
 
-} 
+
 
 
 /*
